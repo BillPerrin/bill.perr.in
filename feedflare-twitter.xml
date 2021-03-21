@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FeedFlareUnit>
+    <Catalog>
+        <Title>Tweet</Title>
+        <Description>Share this on Twitter</Description>
+    </Catalog>
+    <FeedFlare>
+        <Text>Tweet</Text>
+        <Link href="http://twitter.com/share?url=${link}&amp;text=${title}&amp;via=@BillPerrin"/>
+    </FeedFlare>
+</FeedFlareUnit> 

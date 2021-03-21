@@ -1,0 +1,94 @@
+﻿<!doctype html>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<title>Bill Perrin</title>
+	<link rel="Shortcut Icon" href="/favicon.ico" type="image/x-icon" />
+	<meta http-equiv="pragma" content="no-cache" />
+	<meta name="robots" content="all" />
+	<meta name="MSSmartTagsPreventParsing" content="true" />
+	<meta http-equiv="imagetoolbar" content="false" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<!--[if lt IE 9]>
+	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->	
+	<style>
+		* { padding: 0; margin: 0; }
+		body { background-color: #333; }
+		h1 { color: #fff; font-family: monospace; font-size: 550%; line-height: 100%; margin-bottom: 22px; -webkit-font-smoothing: antialiased; }
+		p { color: #fff; font-family: monospace; font-size: 175%; line-height: 100%; margin-bottom: 22px; -webkit-font-smoothing: antialiased; }
+		a { color: #fff; font-weight: bold; text-decoration: none; border-bottom: 1px solid rgba(255,255,255,0.3); }
+		a:hover { color: #990000; border-bottom: 1px solid rgba(255,255,255,1); }
+		#monogram { width: 50px; padding: 50px 0 0 0; margin: 0 auto 0 50px; }
+		#about { width: 360px; padding: 0 0 0 150px; margin: -35px 50px 0 auto !important; }
+		@media (max-width: 767px) {
+			#monogram { position: relative; width: auto; padding: 20px; margin: 0; }
+			#about { position: relative; width: auto; padding: 20px; margin: 0 !important; }
+			background-image { opacity: 0.2; }
+		}
+		#social {
+	width: 360px; padding: 50px 0 0 150px; margin: -35px 50px 0 auto !important;
+}
+				
+		ul { width: auto; margin: 30px 0 0 0; padding: 0; list-style: none;  /*position: absolute; right: 0;*/ }
+ul li { display:block; float: left; width: 40px; height: 40px; margin: 0; padding: 0; font-size: 1px; line-height: 1px; }
+ul li a { display:block; float: left; background: url(images/icon.button-over.png) no-repeat top left; text-decoration: none; -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=30)"; opacity: 0.30; filter: alpha(opacity=30); -webkit-transition: opacity ease-in-out 0.3s; -moz-transition: opacity ease-in-out 0.3s; -o-transition: opacity ease-in-out 0.3s; transition: opacity ease-in-out 0.3s; }
+ul li a:hover { display:block; float: left; text-decoration: none; -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)"; opacity: 0.80; filter: alpha(opacity=80); }
+
+ul li a #twitter { width: 32px; height: 32px; background: url(images/twitter_white.png) no-repeat top left; -webkit-transition: background ease-in-out 0.3s; -moz-transition: background ease-in-out 0.3s; -o-transition: background ease-in-out 0.3s; transition: background ease-in-out 0.3s; }
+ul li a:hover #twitter { width: 32px; height: 32px; background: url(images/twitter_black.png) no-repeat top left; }
+
+ul li a #facebook { width: 32px; height: 32px; background: url(images/facebook_white.png) no-repeat top left; -webkit-transition: background ease-in-out 0.3s; -moz-transition: background ease-in-out 0.3s; -o-transition: background ease-in-out 0.3s; transition: background ease-in-out 0.3s;  }
+ul li a:hover #facebook { width: 32px; height: 32px; background: url(images/facebook_black.png) no-repeat top left; }
+
+ul li a #googleplus { width: 32px; height: 32px; background: url(images/google_plus_white.png) no-repeat top left; -webkit-transition: background ease-in-out 0.3s; -moz-transition: background ease-in-out 0.3s; -o-transition: background ease-in-out 0.3s; transition: background ease-in-out 0.3s;  }
+ul li a:hover #googleplus { width: 32px; height: 32px; background: url(images/google_plus_black.png) no-repeat top left; }
+
+ul li a #linkedin { width: 32px; height: 32px; background: url(images/linkedin_white.png) no-repeat top left; -webkit-transition: background ease-in-out 0.3s; -moz-transition: background ease-in-out 0.3s; -o-transition: background ease-in-out 0.3s; transition: background ease-in-out 0.3s;  }
+ul li a:hover #linkedin { width: 32px; height: 32px; background: url(images/linkedin_black.png) no-repeat top left; }
+	</style>
+</head>	
+    
+<body>
+
+<!-- logo -->
+<div id="monogram">
+	<img src="images/bill-iii-logo-2.png" />
+</div>
+
+<!-- info -->
+<div id="about">
+<h1>Bill Perrin</h1>
+	<p>... is a web guy who lives in the Kansai area of Japan</p>
+
+	<div id="social">		
+		<ul>
+			<li><a href="https://plus.google.com/u/0/116148499228444224992/" target="_blank" title="Circle me on Google+"><div id="googleplus">&nbsp;</div></a></li>
+			<li><a href="https://twitter.com/billperrin" target="_blank" title="Follow me on Twitter"><div id="twitter">&nbsp;</div></a></li>
+			<li><a href="https://facebook.com/billperrin" target="_blank" title="Friend me on Facebook"><div id="facebook">&nbsp;</div></a></li>
+      <li><a href="https://www.linkedin.com/in/billperrin" target="_blank" title="Connect to me on LinkedIn"><div id="linkedin">&nbsp;</div></a></li>
+            <br />
+		</ul>
+		<br />
+	</div>
+
+
+</div>
+
+
+<!--include jquery & backstretch-->
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script type="text/javascript" src="jquery.backstretch.min.js"></script>
+<script type="text/javascript">
+$(function(){
+     $(window).resize(function(){
+         if($(this).width() >= 767){
+             $.backstretch("bill-perrin-bg.jpg", {speed: 150});
+         }
+      })
+      .resize();//trigger resize on page load
+});
+</script>
+
+</body>	
+</html>

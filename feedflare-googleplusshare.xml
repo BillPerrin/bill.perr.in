@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<FeedFlareUnit>
+<Catalog>
+<Title>Share on Google+</Title>
+<Description>Share this post to Google+ </Description>
+</Catalog>
+<FeedFlare>
+<Text>Google+</Text>
+<Link href="https://plus.google.com/share?url=${link}"/>
+</FeedFlare>
+</FeedFlareUnit>
